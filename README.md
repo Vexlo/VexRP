@@ -21,7 +21,7 @@ Enhance your Discord experience!
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/VexRP.git
+    git clone https://github.com/pixelcoderx/VexRP.git
     cd VexRP
     ```
 
