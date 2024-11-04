@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VexRP - Discord Status Enhancer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/logo.png"> <!-- Favicon -->
+  <style>
+    body {
+      font-family: Arial, sans-serif; /* Dodanie czcionki dla całej strony */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* Wysokość całej strony */
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+      width: 100%; /* Aby stopka zajmowała całą szerokość */
+    }
+    .divider {
+      display: inline-block;
+      margin: 0 10px; /* Odstępy po bokach */
+      color: #000; /* Kolor kreski */
+      font-size: 24px; /* Rozmiar czcionki dla kreski */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/logo.png" alt="Logo" style="max-width: 200px; margin-bottom: 20px;">
+    <h1>VexRP - Discord Status Enhancer</h1>
+    <form id="connect-form">
+      <label>Client ID:</label>
+      <input type="text" id="clientId" name="clientId" placeholder="Enter your Client ID" required />
+      <button type="submit">Connect</button>
+    </form>
+    <form id="rpc-form" style="display: none;">
+      <label>State:</label>
+      <input type="text" id="state" name="state" placeholder="Your state" />
+      <label>Details:</label>
+      <input type="text" id="details" name="details" placeholder="Details" />
+      <label>Large Image Key:</label>
+      <input type="text" id="largeImageKey" name="largeImageKey" placeholder="Large image key" />
+      <label>Large Image Text:</label>
+      <input type="text" id="largeImageText" name="largeImageText" placeholder="Large image text" />
+      <label>Small Image Key:</label>
+      <input type="text" id="smallImageKey" name="smallImageKey" placeholder="Small image key" />
+      <label>Small Image Text:</label>
+      <input type="text" id="smallImageText" name="smallImageText" placeholder="Small image text" />
+      <button type="submit">Update Status</button>
+    </form>
+  </div>
+
+  <!-- Dodatkowe informacje -->
+  <footer>
+    <p>Website made by <em>_vexlo_</em></p>
+    <p>&copy; 2023-2024 VexRP - Discord Status Enhancer. All rights reserved.</p>
+    <p>
+      <a href="https://discord.gg/uGJfDEPntq" target="_blank">Support server</a>
+      <span class="divider">|</span> <!-- Pionowa kreska -->
+      <a href="https://discord.com/api/oauth2/authorize?client_id=1241353770114351136&permissions=8&scope=bot%20applications.commands" target="_blank">Add the Muzes bot</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
