@@ -1,175 +1,82 @@
-# 📜 **Privacy Policy for Muzes Music Bot**  
+# VexRP - Discord Status Enhancer
 
-![Muzes Logo](https://i.imgur.com/xzVHhFY.png)  
+![VexRP Logo](https://i.imgur.com/TDfiNAe.jpeg)
 
-Your privacy is our priority. Below is the detailed Privacy Policy outlining how Muzes Music Bot processes your data when using a variety of audio sources.  
+Enhance your Discord experience!
 
-**Effective Date:** 28 November 2024  
-**Company Name:** Muzes  
-**Contact Email:** [teammuzes@gmail.com](mailto:teammuzes@gmail.com)  
-**Location:** Warsaw, Poland  
+## 📚 Introduction
 
----
+**VexRP** is an innovative application designed to enrich your Discord experience by allowing users to customize their status messages with images and details. With its advanced technology, VexRP offers a unique opportunity to showcase your current activities, express your mood, and engage with your community in new and exciting ways.
 
-## 📚 **Introduction**  
+## 🎯 Features
 
-Muzes Music Bot (“the Bot”) is a powerful tool that allows users to stream audio content from various platforms, including YouTube, Spotify, SoundCloud, Apple Music, and more. This Privacy Policy explains how we collect, use, and safeguard your data while providing these features.  
+- **Customizable Status:** Set your Discord status with personalized messages, large and small images.
+- **Real-Time Updates:** Automatically update your status with the latest information.
+- **User-Friendly Interface:** Simple and intuitive interface for easy status management.
+- **Seamless Integration:** Compatible with Discord, allowing for easy setup and use.
+- **Support for Multiple Clients:** Use with various Discord clients seamlessly.
 
-By using the Bot, you agree to this Privacy Policy. If you have any concerns or do not agree with the terms, please discontinue use and contact us for assistance.  
+## 🚀 How to get started
 
----
+1. Start the application:
 
-## 🎵 **Supported Platforms**  
+    ```bash
+    npm start
+    ```
 
-The Bot enables playback from the following sources:  
+2. Open your browser and navigate to the application URL to fill in your Discord **Client ID** and customize your status directly on the webpage.
 
-- **YouTube**  
-- **Spotify**  
-- **SoundCloud**  
-- **Apple Music**  
-- **Deezer**  
-- **Twitch**  
-- **Tidal**  
-- **Bandcamp**  
-- **Mixer**  
-- **Nico Nico Douga**  
-- **Vimeo**  
-- **Clyp.it**  
-- **GetYarn**  
-- **Mixcloud**  
-- **OC ReMix**  
-- **Pornhub**  
-- **Reddit**  
-- **Soundgasm**  
-- **TikTok**  
-- **FloweryTTS**  
-- **Slider.kz**  
-- **PixelDrain**  
-- **JioSaavn**  
-- **Yandex Music**  
-- **HTTP/HTTPS sources**  
-- **Local audio files uploaded to Discord**  
+## 📍 Finding Your Discord Client ID
 
-Each platform has its privacy policy, which governs how they handle your data. We encourage you to review their privacy terms directly (links provided below).  
+To use VexRP, you'll need your Discord Client ID. Here’s how to find it:
 
----
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Click on **New Application** (or select an existing application).
+3. Under the **General Information** tab, you will find your **Client ID** displayed. Copy this value and paste it into the VexRP application where prompted.
 
-## 🔍 **What Data We Collect**  
+## 🛠 Technologies
 
-### **1. Data You Provide**  
-We collect the following information provided by users when interacting with the Bot:  
-- **Discord Account Information:**  
-  - Username, User ID, and avatar.  
-- **Server Data:**  
-  - Server name and ID, channel name and ID, and message interactions.  
+- **Node.js:** Application backend.
+- **Express:** Web server.
+- **MongoDB:** Database.
+- **Socket.io:** Real-time communication.
 
-### **2. Automatically Collected Data**  
-We automatically collect data related to Bot functionality, including:  
-- **Playback Data:**  
-  - Commands executed, requested song URLs, and playback timestamps.  
-- **Platform Integration Data:**  
-  - Metadata from third-party platforms (e.g., song title, artist name, duration).  
-- **Technical Information:**  
-  - IP addresses, user agents, and error logs to debug and optimize services.  
+## 🤝 Contribution
 
----
+You are welcome to contribute! If you have ideas for improvements, please submit them via **Issues** or directly create a **Pull Request**.
 
-## 🛠 **How We Use Your Data**  
+1. Fork the repository.
+2. Create your branch (`git checkout -b feature/feature-name`).
+3. Make changes and commit (`git commit -am 'Add feature'`).
+4. Push to your branch (`git push origin feature/feature-name`).
+5. Create a Pull Request.
 
-Your data is critical for ensuring the functionality of Muzes Music Bot. It is used in the following ways:  
+## 📄 License
 
-### **1. Service Operation**  
-- Stream and process audio from supported platforms.  
-- Manage queueing, playback, and volume control within Discord servers.  
+This project is covered by the Apache 2.0 license - refer to the [LICENSE](LICENSE) file for details.
 
-### **2. Analytics and Optimization**  
-- Monitor usage trends to improve performance.  
-- Identify and resolve issues or bugs in real-time.  
+## 📝 User Guide
 
-### **3. Security and Compliance**  
-- Detect abuse, prevent unauthorized use, and safeguard against illegal activity.  
-- Ensure compliance with Discord’s Terms of Service and relevant laws.  
+### Using the VexRP Application
 
----
+- **Client ID:** After starting the application, you will see a field labeled "Client ID." Enter your Discord Client ID here.
+- **State:** In the "State" field, you can enter any custom message you want to display.
+- **Details:** Use this field to add additional information to your status.
+- **Large Image Key:** Provide the key for the large image you want to display.
+- **Large Image Text:** Enter the text that will appear when hovering over the large image.
+- **Small Image Key:** Provide the key for the small image you want to display.
+- **Small Image Text:** Enter the text that will appear when hovering over the small image.
+- **Update Status:** Once all fields are filled out, click the "Update Status" button to apply your changes.
 
-## 🔐 **How We Protect Your Data**  
+### Visual Guide
 
-We take the protection of your data seriously. Measures include:  
+- **Large Image Key**: This should correspond to an image you uploaded and is part of your Discord application.
+- **Small Image Key**: Similar to the large image, this should also correspond to an image in your application.
 
-- **Data Encryption:** Secure transmission of data between users, Discord, and our servers.  
-- **Access Restrictions:** Limited access to data, strictly for operational purposes.  
-- **Regular Audits:** Periodic checks to ensure compliance with security best practices.  
+## 🔗 Useful Links
 
----
-
-## 🌍 **Third-Party Integrations and Their Policies**  
-
-When using audio sources like YouTube or Spotify, you are subject to their respective privacy policies. Below are links to the privacy policies of supported platforms:  
-
-- **[YouTube](https://policies.google.com/privacy)**  
-- **[Spotify](https://www.spotify.com/us/legal/privacy-policy/)**  
-- **[SoundCloud](https://soundcloud.com/pages/privacy)**  
-- **[Apple Music](https://www.apple.com/legal/privacy/)**  
-- **[Deezer](https://www.deezer.com/legal/privacy)**  
-- **[Twitch](https://www.twitch.tv/p/en/legal/privacy-notice/)**  
-- **[Tidal](https://tidal.com/privacy-policy)**  
-- **[Bandcamp](https://bandcamp.com/privacy)**  
-- **[TikTok](https://www.tiktok.com/legal/privacy-policy)**  
-- **[Yandex Music](https://yandex.com/legal/confidential/)**  
-
-We recommend reviewing these policies to understand how they handle your data.  
-
----
-
-## ⚖️ **Your Rights**  
-
-### **1. Access Your Data**  
-Request a copy of your personal data by contacting [teammuzes@gmail.com](mailto:teammuzes@gmail.com).  
-
-### **2. Delete Your Data**  
-Request deletion of your data at any time. Note: Certain data may need to be retained for operational or legal reasons.  
-
-### **3. Opt-Out of Tracking**  
-Disable analytics tracking by adjusting Bot settings or contacting support.  
-
----
-
-## 🚸 **Children’s Privacy**  
-
-The Bot is not intended for users under the age of 13. We do not knowingly collect data from children. If discovered, such data will be promptly deleted.  
-
----
-
-## 🗓 **Data Retention Policy**  
-
-Data is retained only as long as necessary for the Bot’s operation or as required by law. Retention periods:  
-- **Playback Logs:** 30 days  
-- **Error Logs:** Up to 90 days  
-
-After the retention period, data is securely deleted.  
-
----
-
-## 📩 **Contact Us**  
-
-For questions or concerns about this Privacy Policy or your data, contact us:  
-
-**Muzes Team**  
-- **Email:** [teammuzes@gmail.com](mailto:teammuzes@gmail.com)  
-- **Location:** Warsaw, Poland  
-
----
-
-## 📄 **Updates to This Policy**  
-
-This Privacy Policy may be updated to reflect changes in technology, regulations, or services. Updates will be announced via our [Support Server](https://discord.gg/YOUR_INVITE_CODE).  
-
----
-
-## 🔗 **Useful Links**  
-
-- **[Invite Muzes Music Bot](https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot%20applications.commands)**  
-- **[Support Server](https://discord.gg/YOUR_INVITE_CODE)**  
-- **[GitHub Repository](https://github.com/YOUR_REPOSITORY)**  
-
----
+- **[Discord Developer Portal](https://discord.com/developers/applications)**: Where to create and manage your Discord applications.
+- **[Image Hosting Services](https://imgur.com/)**: Free image hosting for your large and small images.
+- **[Discord Documentation](https://discord.com/developers/docs/intro)**: Official documentation for Discord APIs and services.
+- **[Support Server](https://discord.gg/uGJfDEPntq)**: Join our community for help and support.
+- **[Add the Muzes Bot](https://discord.com/api/oauth2/authorize?client_id=1241353770114351136&permissions=8&scope=bot%20applications.commands)**: Invite the Muzes bot to your server.
